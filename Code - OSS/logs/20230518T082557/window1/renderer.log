@@ -1,0 +1,2 @@
+2023-05-18 08:25:58.092 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/ty/test_cron.txt","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-05-18 08:26:01.700 [info] [perf] Render performance baseline is 36ms

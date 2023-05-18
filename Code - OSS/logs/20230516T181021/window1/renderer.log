@@ -1,0 +1,2 @@
+2023-05-16 18:10:22.448 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/ty/go/src/revenge/encryption/getpaths.go","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-05-16 18:10:26.006 [info] [perf] Render performance baseline is 39ms

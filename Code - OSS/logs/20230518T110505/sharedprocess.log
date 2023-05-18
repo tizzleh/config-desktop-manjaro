@@ -1,0 +1,15 @@
+2023-05-18 11:05:07.480 [info] Starting worker process with pid 11496 (type: fileWatcher, window: 1).
+2023-05-18 11:05:31.283 [info] Getting Manifest... asvetliakov.vscode-neovim
+2023-05-18 11:05:31.528 [info] Installing extension: asvetliakov.vscode-neovim
+2023-05-18 11:05:32.856 [info] Extension signature verification is not done: asvetliakov.vscode-neovim
+2023-05-18 11:05:33.006 [info] Extracted extension to /home/ty/.vscode-oss/extensions/.1638ee8d-a457-422a-9f13-3e3243fff195: asvetliakov.vscode-neovim
+2023-05-18 11:05:33.014 [info] Renamed to /home/ty/.vscode-oss/extensions/asvetliakov.vscode-neovim-0.0.97-universal
+2023-05-18 11:05:33.017 [info] Extracting extension completed. asvetliakov.vscode-neovim
+2023-05-18 11:05:33.028 [info] Extension installed successfully: asvetliakov.vscode-neovim
+2023-05-18 11:16:12.229 [info] Getting Manifest... zhuangtongfa.material-theme
+2023-05-18 11:16:12.463 [info] Installing extension: zhuangtongfa.material-theme
+2023-05-18 11:16:13.330 [info] Extension signature verification is not done: zhuangtongfa.material-theme
+2023-05-18 11:16:13.459 [info] Extracted extension to /home/ty/.vscode-oss/extensions/.199ae72e-e3c5-465a-8cb7-a5cfbb254f72: zhuangtongfa.material-theme
+2023-05-18 11:16:13.464 [info] Renamed to /home/ty/.vscode-oss/extensions/zhuangtongfa.material-theme-3.15.13-universal
+2023-05-18 11:16:13.467 [info] Extracting extension completed. zhuangtongfa.material-theme
+2023-05-18 11:16:13.478 [info] Extension installed successfully: zhuangtongfa.material-theme

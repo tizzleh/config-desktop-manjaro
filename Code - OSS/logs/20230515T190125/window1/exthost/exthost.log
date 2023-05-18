@@ -1,0 +1,13 @@
+2023-05-15 19:01:26.968 [info] Extension host with pid 14622 started
+2023-05-15 19:01:27.014 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-15 19:01:27.022 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-15 19:01:27.022 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-15 19:01:27.128 [info] Eager extensions activated
+2023-05-15 19:01:27.142 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-15 19:01:27.142 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-15 19:01:33.220 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-15 19:01:33.221 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-15 19:01:33.221 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-15 19:01:33.221 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-15 19:02:39.063 [info] Extension host terminating: received terminate message from renderer
+2023-05-15 19:02:39.085 [info] Extension host with pid 14622 exiting with code 0

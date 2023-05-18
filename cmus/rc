@@ -1,0 +1,44 @@
+# Set the auto-save option to true.
+#set auto_save=true
+
+# Set the player to continue playing after the end of the playlist.
+#set continue=true
+
+# Set the Cmus library directory.
+# Replace the path with the location of your music library.
+#set library_dir=/mnt/sda1/Music
+
+# Set the Cmus browser directory.
+# Replace the path with the location of your music library.
+#set browser_dir=/mnt/sda1/Music
+
+# Set the colorscheme.
+#colorscheme green_mono
+
+# Bind keys for volume control.
+bind -f common + voldown 2%
+bind -f common - volup 2%
+
+# Set the output_plugin (you can use 'pulse', 'alsa', 'oss' or 'jack')
+set output_plugin=pulse
+
+# You can also set the equalizer if you wish.
+# This is a flat EQ setting.
+# Use `vol` for preamp, `1`-`10` for bands from 60Hz to 16kHz
+# eqset -b -c -v [channel_id] vol 0
+# eqset -b -c -v [channel_id] 1 0
+# eqset -b -c -v [channel_id] 2 0
+# eqset -b -c -v [channel_id] 3 0
+# eqset -b -c -v [channel_id] 4 0
+# eqset -b -c -v [channel_id] 5 0
+# eqset -b -c -v [channel_id] 6 0
+# eqset -b -c -v [channel_id] 7 0
+# eqset -b -c -v [channel_id] 8 0
+# eqset -b -c -v [channel_id] 9 0
+# eqset -b -c -v [channel_id] 10 0
+
+# You can also set the replaygain options if you wish.
+set replaygain=track
+set replaygain_limit=true
+set replaygain_preamp=0
+

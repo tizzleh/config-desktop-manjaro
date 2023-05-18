@@ -1,0 +1,2 @@
+2023-05-16 00:06:15.726 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/run/media/ty/Backup/creds.txt","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-05-16 00:06:19.317 [info] [perf] Render performance baseline is 37ms

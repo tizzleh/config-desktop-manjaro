@@ -1,0 +1,23 @@
+00:00:00.290476 VirtualBox GUI VM Selector Window 7.0.8 r156879 linux.amd64 (Apr 18 2023 21:36:31) release log
+00:00:00.290477 Log opened 2023-05-18T07:06:45.212192000Z
+00:00:00.290478 Build Type: release
+00:00:00.290479 OS Product: Linux
+00:00:00.290480 OS Release: 6.1.26-1-MANJARO
+00:00:00.290481 OS Version: #1 SMP PREEMPT_DYNAMIC Wed Apr 26 22:07:35 UTC 2023
+00:00:00.290502 DMI Product Name: All Series
+00:00:00.290510 DMI Product Version: System Version
+00:00:00.290514 Firmware type: UEFI
+00:00:00.290610 Secure Boot: Disabled
+00:00:00.290641 Host RAM: 32007MB (31.2GB) total, 29203MB (28.5GB) available
+00:00:00.290644 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.290644 Process ID: 35755
+00:00:00.290644 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.290673 Qt version: 5.15.9
+00:00:00.291131 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.299628 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.742700 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1940x20 x 619x1040
+00:00:00.763260 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 2569x20 x 623x1040
+00:00:00.774804 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:12:03.014327 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:12:10.133095 GUI: UICommon: Handling aboutToQuit request..
+00:12:11.013756 GUI: UICommon: aboutToQuit request handled!

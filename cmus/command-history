@@ -1,0 +1,11 @@
+q
+shuffle
+n
+next
+2
+set output_plugin=pulse
+set output_plugin=oss
+shuffle 1
+ back
+5
+add /mnt/sda1/Music/

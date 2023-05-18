@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/ty/wallpapers/change_wallpaper.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Change Wallpaper
+Name=Change Wallpaper
+Comment[en_US]=
+Comment=
+
